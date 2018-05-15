@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    width:1000px;
+    }
+header{
+    background-color:#ffcccc;
+    }
+#main{
+    width:700px;
+    background-color:#ccffcc;
+    float: left;
+    }
+#menu{
+    width:300px;
+    background-color:#ccccff;
+    float:right;
+    }
+footer{
+    background-color:#ffccff;
+    }
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
